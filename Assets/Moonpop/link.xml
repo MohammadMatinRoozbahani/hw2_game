@@ -1,0 +1,4 @@
+<linker>
+  <assembly fullname="Unity.Postprocessing.Runtime" preserve="all" />
+  <assembly fullname="Moonpop.Runtime" preserve="all" />
+</linker>

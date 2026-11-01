@@ -1,0 +1,6 @@
+{
+  "name": "Moonpop.Core",
+  "rootNamespace": "Moonpop.Core",
+  "references": [],
+  "noEngineReferences": true
+}

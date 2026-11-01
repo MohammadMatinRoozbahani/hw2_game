@@ -1,0 +1,5 @@
+{
+  "name": "Moonpop.Runtime",
+  "rootNamespace": "Moonpop",
+  "references": ["Moonpop.Core", "Unity.InputSystem", "Unity.ugui", "Unity.Postprocessing.Runtime"]
+}

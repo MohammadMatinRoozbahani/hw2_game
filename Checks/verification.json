@@ -1,0 +1,42 @@
+{
+  "target_editor": "6000.6.5f1",
+  "core_tests": {
+    "passed": 49,
+    "failed": 0,
+    "provenance": "baseline; RunSession, SweptCollision and TrafficPlanner unchanged; ArtRecipe terrain updated; tests not rerun for terrain update",
+    "rerun_this_update": false
+  },
+  "engine_playmode_tests_included": 16,
+  "additional_editor_tests_included": 4,
+  "unity_editor_execution": "not_run_editor_unavailable",
+  "player_build": "not_built_editor_unavailable",
+  "art_review": "baseline_offline_render; current terrain needs Unity capture",
+  "required_game_features": "implemented; engine verification pending",
+  "extra_features": [
+    "nitro",
+    "near-miss combo",
+    "3 missions and sticker rewards",
+    "4 persistent car colors",
+    "3 cameras",
+    "calm camera mode",
+    "light quality mode",
+    "automatic engine visual audit"
+  ],
+  "keyboard_update": {
+    "csharp_syntax": "passed; 31 files",
+    "comment_removal": "verified token preservation",
+    "structural_validation": "passed",
+    "new_keyboard_regression_tests_included": 5,
+    "new_keyboard_regression_tests_execution": "pending Unity Editor"
+  },
+  "menu_and_terrain_update": {
+    "menu_road_direction": "reversed only in Menu; Playing keeps its previous direction",
+    "road_recycling": "wraps pooled tiles in both directions",
+    "terrain": "continuous 320-unit-wide base, two garden strips, building foundations, paths, hedges and shrubs on every pooled segment",
+    "core_rules": "unchanged",
+    "csharp_syntax": "passed; 31 source files",
+    "code_comments": 0,
+    "unity_execution": "pending; Editor unavailable",
+    "road_regression_test": "existing PlayMode test expanded for opposite directions, continuity and object count"
+  }
+}

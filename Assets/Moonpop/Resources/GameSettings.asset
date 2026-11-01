@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f56f142d7f957e88ecbafdc83a8a3ce, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier:
+  rules:
+    StartingLives: 3
+    MaximumFuel: 100
+    FuelPerSecond: 1.85
+    FuelPickup: 30
+    InitialSpeed: 26
+    MaximumSpeed: 62
+    DamageGraceSeconds: 1.5
+    LaneWidth: 3.2
+    LaneChangeSeconds: 0.23
+    CoinValue: 25
+    DistanceScoreFactor: 0.15
+    NitroMultiplier: 1.38
+    NitroDrainPerSecond: 38
+    NitroRechargePerSecond: 12
+    NitroExtraFuelPerSecond: 1.3
+  roadSegments: 9
+  segmentLength: 48
+  spawnHorizon: 235
+  parkedCapacity: 24
+  movingCapacity: 20
+  coinCapacity: 128
+  fuelCapacity: 12
+  seed: 402531387
+  cyan: {r: 0.3, g: 1, b: 0.79, a: 1}
+  pink: {r: 1, g: 0.36, b: 0.56, a: 1}
+  musicVolume: 0.45
+  effectsVolume: 0.8

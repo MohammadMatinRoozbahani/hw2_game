@@ -1,0 +1,37 @@
+{
+  "csharp_comments_removed": 14,
+  "python_comments_removed": 9,
+  "python_docstrings_removed": 3,
+  "other_comments_removed": 0,
+  "csharp_syntax_files_checked": 31,
+  "csharp_syntax_errors": 0,
+  "remaining_csharp_comments": 0,
+  "comment_removal_preserved_csharp_tokens": true,
+  "comment_removal_preserved_python_ast": true,
+  "changed_by_comment_removal": [
+    "Assets/Moonpop/Scripts/Core/ArtRecipe.cs",
+    "Assets/Moonpop/Scripts/Core/RunSession.cs",
+    "Assets/Moonpop/Scripts/Core/SweptCollision.cs",
+    "Assets/Moonpop/Scripts/Core/TrafficPlanner.cs",
+    "Assets/Moonpop/Scripts/Runtime/FixedPool.cs",
+    "Assets/Moonpop/Scripts/Runtime/Interactable.cs",
+    "Assets/Moonpop/Scripts/Runtime/MovingObstacle.cs",
+    "Assets/Moonpop/Scripts/Runtime/NeonBootstrap.cs",
+    "Assets/Moonpop/Scripts/Runtime/VisualAuditDriver.cs",
+    "Tools/generate_audio.py",
+    "Tools/render_art_preview.py",
+    "Tools/validate_project.py"
+  ],
+  "structural_validation": "passed",
+  "shader_audio_fonts_input_asset_bytes": "unchanged",
+  "core_executable_tokens": "unchanged_from_baseline",
+  "runtime_tests_included": 16,
+  "runtime_tests_executed": false,
+  "unity_editor_available": false,
+  "non_comment_csharp_changes": [
+    "Assets/Moonpop/Tests/PlayMode/RuntimeTests.cs",
+    "Assets/Moonpop/Scripts/Runtime/GameManager.cs",
+    "Assets/Moonpop/Scripts/Runtime/UIOverlay.cs",
+    "Assets/Moonpop/Scripts/Runtime/InputRouter.cs"
+  ]
+}

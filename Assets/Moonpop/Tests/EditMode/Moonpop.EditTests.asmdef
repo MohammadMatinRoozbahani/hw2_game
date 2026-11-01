@@ -1,0 +1,6 @@
+{
+  "name": "Moonpop.EditTests",
+  "references": ["Moonpop.Core", "Moonpop.Runtime", "Unity.InputSystem"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

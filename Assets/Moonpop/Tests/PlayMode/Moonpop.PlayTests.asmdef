@@ -1,0 +1,5 @@
+{
+  "name": "Moonpop.PlayTests",
+  "references": ["Moonpop.Core", "Moonpop.Runtime", "Unity.InputSystem", "Unity.ugui", "Unity.Postprocessing.Runtime"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

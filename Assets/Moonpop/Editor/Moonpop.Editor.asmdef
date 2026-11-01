@@ -1,0 +1,6 @@
+{
+  "name": "Moonpop.Editor",
+  "rootNamespace": "Moonpop.Editor",
+  "references": ["Moonpop.Core", "Moonpop.Runtime", "Unity.InputSystem", "Unity.Postprocessing.Runtime"],
+  "includePlatforms": ["Editor"]
+}

@@ -1,0 +1,41 @@
+{
+  "target_editor": "6000.6.5f1",
+  "csharp_source_files": 31,
+  "csharp_syntax_errors": 0,
+  "source_comments": 0,
+  "structural_validation": "passed",
+  "core_tests_executed_this_update": false,
+  "playmode_execution": "not run; Unity Editor unavailable",
+  "road_recycling_regression": "expanded existing InfiniteRoadRecyclingKeepsAConstantObjectCount; includes 4800 units in each direction",
+  "terrain_extents": {
+    "base_x": [
+      -160,
+      160
+    ],
+    "garden_x": [
+      [
+        -160,
+        -8.5
+      ],
+      [
+        8.5,
+        160
+      ]
+    ],
+    "garden_top_y": 0.14,
+    "building_foundation_top_y": 0.27,
+    "building_body_bottom_y": 0.2
+  },
+  "changed_product_files": [
+    "Assets/Moonpop/Scripts/Runtime/GameManager.cs",
+    "Assets/Moonpop/Scripts/Runtime/WorldDirector.cs",
+    "Assets/Moonpop/Scripts/Core/ArtRecipe.cs"
+  ],
+  "source_sha256": {
+    "Assets/Moonpop/Scripts/Runtime/GameManager.cs": "da1f6daf2d58a9e05138880c996e86d102de7ed5c226dfd81474c24e381a7f7f",
+    "Assets/Moonpop/Scripts/Runtime/WorldDirector.cs": "e94534c9395cfed0fea0a6cc495120dd804e7a2ab69602cd587aa9a8ef809d32",
+    "Assets/Moonpop/Scripts/Core/ArtRecipe.cs": "435886b99a2e83f7bfb79fe3d5b0a2b251eb2e4b654c667deb9e82c9bf3d4315"
+  },
+  "unchanged_resources_and_controls": "byte-identical to preceding project",
+  "product_change_scope": "ArtRecipe terrain, WorldDirector wrapping and one Menu-only GameManager line"
+}
